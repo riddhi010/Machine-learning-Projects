@@ -21,7 +21,7 @@ Model serialization using joblib
 
 Ensure you have the following dependencies installed:
 
-pip install pandas scikit-learn joblib
+``` pip install pandas scikit-learn joblib ```
 
 ## Dataset
 
@@ -31,8 +31,8 @@ The dataset used in this project is mail_data.xls, which contains email messages
 
 Clone this repository:
 
-git clone https://github.com/yourusername/spam-email-detection.git
-cd spam-email-detection
+``` git clone https://github.com/yourusername/spam-email-detection.git ```
+``` cd spam-email-detection ```
 
 Run the script to train the model:
 
@@ -40,9 +40,9 @@ python spam_email_detection.py
 
 To classify a new email, use the classify_new_email function:
 
-from joblib import load
+``` from joblib import load ```
 
-best_nb_classifier = load('spam_email_detection.pkl')
+``` best_nb_classifier = load('spam_email_detection.pkl') ```
 
 def classify_new_email(email, vectorizer, model):
     email_tfidf = vectorizer.transform([email])
@@ -50,7 +50,7 @@ def classify_new_email(email, vectorizer, model):
     return 'spam' if result == 1 else 'ham'
 
 new_email = "You have won 5 lottery coupons!"
-print(f"This email is {classify_new_email(new_email, tfidf_vectorizer, best_nb_classifier)}!")
+print(f"This email is {classify_new_email(new_email, tfidf_vectorizer, best_nb_classifier)}!") 
 
 ## Model Performance
 
@@ -60,13 +60,13 @@ Training Accuracy: 100%
 
 Test Accuracy: 99%
 
-Saving and Loading the Model
+## Saving and Loading the Model
 
 The trained model is saved as spam_email_detection.pkl and can be loaded for future use:
 
 import joblib
 model = joblib.load('spam_email_detection.pkl')
 
-Author
+## Author
 
 Developed by Riddhi Shah
