@@ -15,9 +15,10 @@ To run this project, install the required dependencies:
 
 ```bash
 pip install google-api-python-client pandas textblob nltk requests streamlit pyngrok transformers
+```
 📝 Usage
 Run the script:
-bash
+
 Copy
 Edit
 python your_script.py
