@@ -62,24 +62,24 @@ streamlit run your_script.py
 ```
 🏗️ Technologies Used
 
-Python 🐍
+-Python 🐍
 
-Google API Client (YouTube Data API v3)
+-Google API Client (YouTube Data API v3)
 
-TextBlob (Sentiment Analysis)
+-TextBlob (Sentiment Analysis)
 
-BERT (Transformers)
+-BERT (Transformers)
 
-Matplotlib & Seaborn (Visualization)
+-Matplotlib & Seaborn (Visualization)
 
-Streamlit (Dashboard UI)
+-Streamlit (Dashboard UI)
 
 🔥 Future Improvements
 
- Add real-time comment fetching
+ -Add real-time comment fetching
  
- Improve accuracy with custom ML models
+ -Improve accuracy with custom ML models
  
- Enhance visualization with interactive graphs
+ -Enhance visualization with interactive graphs
 
 🎯 Developed by Riddhi 💡
