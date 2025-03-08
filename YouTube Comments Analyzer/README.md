@@ -17,17 +17,15 @@ To run this project, install the required dependencies:
 pip install google-api-python-client pandas textblob nltk requests streamlit pyngrok transformers
 ```
 📝 Usage
-Run the script:
-
-Copy
-Edit
+1.Run the script:
+``` bash
 python your_script.py
-Enter the YouTube Video ID when prompted.
-View sentiment distribution and most frequent comments.
+```
+2.Enter the YouTube Video ID when prompted.
+3.View sentiment distribution and most frequent comments.
+
 📌 Example Output
-mathematica
-Copy
-Edit
+```bash
 Enter the YouTube video ID: VrU_uFCwXX8
 Analyzed 100 comments.
 
@@ -40,7 +38,9 @@ Most Used Negative Comments:
 - Boring content (used 3 times)
 
 Overall Video Impact: Positive Impact
+```
 📊 Visualization
+
 The script generates a sentiment distribution graph:
 ✔️ Green → Positive
 ✔️ Pink → Neutral
@@ -48,18 +48,15 @@ The script generates a sentiment distribution graph:
 
 🔑 API Key Setup
 Replace API_KEY in the script with your YouTube Data API v3 key.
-
-python
-Copy
-Edit
+```bash
 API_KEY = 'YOUR_YOUTUBE_API_KEY'
+```
 🖥️ Running the Streamlit App
 Run the interactive Streamlit dashboard:
 
-bash
-Copy
-Edit
+```bash
 streamlit run your_script.py
+```
 🏗️ Technologies Used
 Python 🐍
 Google API Client (YouTube Data API v3)
@@ -67,11 +64,10 @@ TextBlob (Sentiment Analysis)
 BERT (Transformers)
 Matplotlib & Seaborn (Visualization)
 Streamlit (Dashboard UI)
+
 🔥 Future Improvements
  Add real-time comment fetching
  Improve accuracy with custom ML models
  Enhance visualization with interactive graphs
-📜 License
-This project is MIT licensed.
 
 🎯 Developed by Riddhi 💡
