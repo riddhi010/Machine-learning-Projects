@@ -44,7 +44,9 @@ Overall Video Impact: Positive Impact
 The script generates a sentiment distribution graph:
 
 ✔️ Green → Positive
+
 ✔️ Pink → Neutral
+
 ✔️ Blue → Negative
 
 🔑 API Key Setup
@@ -61,16 +63,23 @@ streamlit run your_script.py
 🏗️ Technologies Used
 
 Python 🐍
+
 Google API Client (YouTube Data API v3)
+
 TextBlob (Sentiment Analysis)
+
 BERT (Transformers)
+
 Matplotlib & Seaborn (Visualization)
+
 Streamlit (Dashboard UI)
 
 🔥 Future Improvements
 
  Add real-time comment fetching
+ 
  Improve accuracy with custom ML models
+ 
  Enhance visualization with interactive graphs
 
 🎯 Developed by Riddhi 💡
