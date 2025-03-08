@@ -35,9 +35,8 @@ File Structure 📁
 │── templates/  
 │   ├── index.html    # Home page  
 │   ├── recommendations.html # Results page  
-│── static/           # CSS & JS files (if needed)  
-│── u.data            # Ratings dataset  
-│── u.item            # Movies dataset  
+│── static/           
+│   |-- movie-background-collage.jpg            
 │── README.md         # Project documentation  
 
 Screenshots 🖼️
