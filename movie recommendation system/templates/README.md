@@ -17,7 +17,7 @@ This is a Flask-based web application that recommends movies based on the user's
 pip install Flask pandas
 ```
 3. Download the MovieLens dataset and place it in the project folder.
-4. 
+
 Usage 🚀
 1. Run the Flask app:
 ```bash
