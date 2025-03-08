@@ -19,7 +19,8 @@ pip install google-api-python-client pandas textblob nltk requests streamlit pyn
 ### 📝 Usage
 1.Run the script:
 ``` bash
-python your_script.py
+python youtube_comments_sentimate_analysis.py
+
 ```
 2.Enter the YouTube Video ID when prompted.
 3.View sentiment distribution and most frequent comments.
@@ -58,7 +59,8 @@ API_KEY = 'YOUR_YOUTUBE_API_KEY'
 Run the interactive Streamlit dashboard:
 
 ```bash
-streamlit run your_script.py
+streamlit run youtube_comments_sentimate_analysis.py
+
 ```
 ### 🏗️ Technologies Used
 
