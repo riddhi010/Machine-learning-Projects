@@ -36,7 +36,7 @@ Clone this repository:
 
 Run the script to train the model:
 
-python spam_email_detection.py
+``` python spam_email_detection.py ```
 
 To classify a new email, use the classify_new_email function:
 
@@ -44,13 +44,13 @@ To classify a new email, use the classify_new_email function:
 
 ``` best_nb_classifier = load('spam_email_detection.pkl') ```
 
-def classify_new_email(email, vectorizer, model):
-    email_tfidf = vectorizer.transform([email])
-    result = model.predict(email_tfidf)
-    return 'spam' if result == 1 else 'ham'
+``` def classify_new_email(email, vectorizer, model): ```
+   ``` email_tfidf = vectorizer.transform([email]) ```
+   ``` result = model.predict(email_tfidf) ```
+   ``` return 'spam' if result == 1 else 'ham' ``` 
 
-new_email = "You have won 5 lottery coupons!"
-print(f"This email is {classify_new_email(new_email, tfidf_vectorizer, best_nb_classifier)}!") 
+``` new_email = "You have won 5 lottery coupons!" ```
+``` print(f"This email is {classify_new_email(new_email, tfidf_vectorizer, best_nb_classifier)}!") ```
 
 ## Model Performance
 
@@ -64,8 +64,8 @@ Test Accuracy: 99%
 
 The trained model is saved as spam_email_detection.pkl and can be loaded for future use:
 
-import joblib
-model = joblib.load('spam_email_detection.pkl')
+``` import joblib ```
+``` model = joblib.load('spam_email_detection.pkl') ```
 
 ## Author
 
