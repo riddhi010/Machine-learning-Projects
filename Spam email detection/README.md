@@ -31,7 +31,8 @@ The dataset used in this project is mail_data.xls, which contains email messages
 
 Clone this repository:
 
-``` git clone https://github.com/yourusername/spam-email-detection.git ```
+``` git clone https://github.com/riddhi010/spam-email-detection.git ```
+
 ``` cd spam-email-detection ```
 
 Run the script to train the model:
