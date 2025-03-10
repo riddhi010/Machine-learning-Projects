@@ -10,7 +10,7 @@ This is a Flask-based web application that recommends movies based on the user's
 ## Installation 🛠️  
 1. Clone this repository:  
    ```bash
-   git clone https://github.com/your-username/movie-recommendation-system.git
+   git clone https://github.com/riddhi010/movie-recommendation-system.git
    cd movie-recommendation-system
 2. Install dependencies:
 ```bash
