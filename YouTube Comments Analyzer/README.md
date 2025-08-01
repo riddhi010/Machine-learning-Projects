@@ -76,12 +76,5 @@ streamlit run youtube_comments_sentimate_analysis.py
 
 -Streamlit (Dashboard UI)
 
-### 🔥 Future Improvements
-
- -Add real-time comment fetching
- 
- -Improve accuracy with custom ML models
- 
- -Enhance visualization with interactive graphs
 
 🎯 Developed by Riddhi 💡
